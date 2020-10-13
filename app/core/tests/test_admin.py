@@ -5,8 +5,8 @@ from django.urls import reverse
 
 class AdminSiteTests(TestCase):
 
-    """Function that is ran before every test that we run"""
     def setUp(self):
+        """Function that is ran before every test that we run"""
         self.client = Client()
         self.admin_user = get_user_model().objects.create_superuser(
             email='admin@gmail.com',
