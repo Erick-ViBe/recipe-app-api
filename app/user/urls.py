@@ -16,4 +16,10 @@ urlpatterns = [
         UserViews.CreateTokenAPIView.as_view(),
         name='token'
     ),
+
+    path(
+        'me/',
+        UserViews.ManageUserAPIView.as_view(),
+        name='me'
+    ),
 ]
