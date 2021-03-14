@@ -25,7 +25,7 @@ SECRET_KEY = 'as@+=##lw+*jvk%(p(l#v%a+ap2qihmzojaf^tk9lb$b@pdm+i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'rest_framework.authtoken',
+
+    'drf_yasg',
 
     'core',
     'user',
@@ -108,6 +110,23 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+# REST Documentation
+SWAGGER_SETTINGS = {
+    'USE_SESSION_AUTH': False,
+    'SECURITY_DEFINITIONS': {
+        'Token format: Token XXXXXXXXXXXXXXXXXXXX': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header',
+        }
+    },
+    'APIS_SORTER': 'alpha',
+    'SUPPORTED_SUBMIT_METHODS': ['get', 'post', 'put', 'delete', 'patch'],
+    'OPERATIONS_SORTER': 'alpha',
+    'REFETCH_SCHEMA_WITH_AUTH': True,
+}
 
 
 # Internationalization
