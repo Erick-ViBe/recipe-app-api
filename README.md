@@ -31,7 +31,7 @@ Project Setup with Docker and Docker Compose, automatically unit test and lintin
 * Docker Compose
 
 ## Setup
-1. Clone repository:
+1. Clone repository:\
 `git clone https://github.com/Erick-ViBe/recipe-app-api.git`
 
 ## Run Project
