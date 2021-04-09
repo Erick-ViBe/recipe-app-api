@@ -32,7 +32,7 @@ Project Setup with Docker and Docker Compose, automatically unit test and lintin
 
 ## Setup
 1. Clone and enter the repository:\
-`git clone https://github.com/Erick-ViBe/recipe-app-api.git`
+`git clone https://github.com/Erick-ViBe/recipe-app-api.git`\
 `cd recipe-app-api`
 
 ## Run Project
