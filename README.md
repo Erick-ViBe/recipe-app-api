@@ -1,5 +1,5 @@
 # Recipe Book API
-Recipe Book API with user authentication, uploading images, filtering and searching objects using Test Driven Development
+Recipe Book API with user authentication, uploading images, filtering and searching objects using Test Driven Development.\
 Project Setup with Docker and Docker Compose, automatically unit test and linting with Travis-CI.
 
 > Python-DjangoRestFramework-Docker-TravisCI
@@ -31,8 +31,9 @@ Project Setup with Docker and Docker Compose, automatically unit test and lintin
 * Docker Compose
 
 ## Setup
-1. Clone repository:\
+1. Clone and enter the repository:\
 `git clone https://github.com/Erick-ViBe/recipe-app-api.git`
+`cd recipe-app-api`
 
 ## Run Project
 `docker-compose up`
@@ -41,4 +42,4 @@ Project Setup with Docker and Docker Compose, automatically unit test and lintin
 `docker-compose run --rm app sh -c "python manage.py test"`
 
 ## Contact
-Created by [@ErickViBe](https://erickvibeportfolio.web.app/) - feel free to contact me!
+Created by [@ErickViBe](https://erickvibe.xyz/) - feel free to contact me!
