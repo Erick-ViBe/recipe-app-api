@@ -7,6 +7,7 @@ Project Setup with Docker and Docker Compose, automatically unit test and lintin
 ## Table of contents
 * [Technologies](#technologies)
 * [Requirements](#requirements)
+* [Setup](#setup)
 * [Run Project](#run-project)
 * [Run Tests](#run-tests)
 * [Contact](#contact)
@@ -29,15 +30,15 @@ Project Setup with Docker and Docker Compose, automatically unit test and lintin
 * Docker
 * Docker Compose
 
+## Setup
+1. Clone repository:
+`git clone https://github.com/Erick-ViBe/recipe-app-api.git`
+
 ## Run Project
 `docker-compose up`
 
 ## Run Tests
 `docker-compose run --rm app sh -c "python manage.py test"`
-
-## Documentation
-* [@Swagger UI](https://todo-api-vibe.herokuapp.com/docs/)
-* [@JSON](https://todo-api-vibe.herokuapp.com/docs.json)
 
 ## Contact
 Created by [@ErickViBe](https://erickvibeportfolio.web.app/) - feel free to contact me!
